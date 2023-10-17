@@ -9,9 +9,7 @@ export function Header() {
         <nav>
           <ul className="flex items-center gap-5">
             <li className="text-base leading-normal text-white-90">sobre</li>
-            <li className="text-base leading-normal text-white-90">
-              portifólio
-            </li>
+            <li className="text-base leading-normal text-white-90">projetos</li>
             <li className="text-base leading-normal text-white-90">
               habilidades
             </li>

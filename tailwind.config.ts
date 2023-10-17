@@ -20,6 +20,9 @@ const config: Config = {
         },
         red: '#E65F78',
       },
+      boxShadow: {
+        'card-project': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+      },
     },
   },
   plugins: [],

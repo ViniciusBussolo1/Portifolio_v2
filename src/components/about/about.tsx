@@ -1,16 +1,12 @@
 import Image from 'next/image'
 import AboutPicture from '../../../public/About_Picture.svg'
+import { TitleSection } from '../titleSection/titleSection'
 
 export function About() {
   return (
     <section className="w-full h-[55rem] bg-black-80 flex justify-center items-center px-2">
       <div className="flex flex-col gap-[5.625rem]">
-        <div className="flex flex-col justify-center items-center gap-3">
-          <h2 className="text-5xl leading-normal font-extrabold text-white-0">
-            Sobre Mim
-          </h2>
-          <div className="w-[3.75rem] h-1 stroke-[0.25rem] bg-red rounded"></div>
-        </div>
+        <TitleSection title="Sobre Mim" />
         <div className="max-w-[58.188rem] w-full flex items-center gap-[2.625rem]">
           <Image src={AboutPicture} alt="About Picture" />
           <div className="flex flex-col gap-[2.188rem]">
