@@ -8,7 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
+      colors: {
+        black: {
+          '88': '#333333',
+          '80': '#1F1F1F',
+        },
+        white: {
+          '0': '#FFFFFF',
+          '80': '#CCCCCC',
+          '90': '#F7F7F7',
+        },
+        red: '#E65F78',
+      },
     },
   },
   plugins: [],
