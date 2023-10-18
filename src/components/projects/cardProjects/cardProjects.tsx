@@ -17,7 +17,7 @@ export function CardProjects({
     <div className="h-[28.188rem] max-w-[27.188rem] w-full bg-black-88 flex flex-col justify-center gap-[0.938rem] p-[1.563rem] rounded-[0.625rem] shadow-card-project">
       <Image
         src={image}
-        alt="Item"
+        alt="Image Project"
         width={0}
         height={0}
         className="rounded-[0.625rem] w-full"
