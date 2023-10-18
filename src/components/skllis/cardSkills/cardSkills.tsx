@@ -16,7 +16,9 @@ export function CardSkills({ image, name, description }: cardSkillsProps) {
         height={0}
         className="rounded-[0.625rem] h-[4.688rem] w-[5.563rem]"
       />
-      <h4 className="text-2xl leading-normal font-semibold text-red">{name}</h4>
+      <h4 className="text-2xl leading-normal font-semibold text-red-500">
+        {name}
+      </h4>
       <p className="text-base leading-[1.7rem] font-normal text-white-0">
         {description}
       </p>

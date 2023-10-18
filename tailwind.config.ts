@@ -18,7 +18,10 @@ const config: Config = {
           '80': '#CCCCCC',
           '90': '#F7F7F7',
         },
-        red: '#E65F78',
+        red: {
+          '500': '#E65F78',
+          '600': '#CF556C',
+        },
       },
       boxShadow: {
         'card-project': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',

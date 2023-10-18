@@ -1,3 +1,5 @@
+'use client'
+import { Link } from 'react-scroll'
 import Image from 'next/image'
 import Arrow from '../../../public/Hero_Arrow.svg'
 
@@ -9,14 +11,24 @@ export function Hero() {
           <div className="w-[150px] h-[150px] bg-white-80 rounded-[50%]"></div>
           <div className="space-y-3">
             <h1 className="text-7xl leading-[4.95rem] font-extrabold text-white-0">
-              Vinicius <span className="text-red">Bussolo</span>
+              Vinicius <span className="text-red-500">Bussolo</span>
             </h1>
             <h4 className="text-2xl leading-normal font-light text-white-90">
               Front-end Developer
             </h4>
           </div>
         </div>
-        <Image src={Arrow} alt="Arrow" className="absolute bottom-0" />
+        <Link
+          to="sobre"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="absolute bottom-0 cursor-pointer"
+        >
+          {' '}
+          <Image src={Arrow} alt="Arrow" />
+        </Link>
       </div>
     </section>
   )

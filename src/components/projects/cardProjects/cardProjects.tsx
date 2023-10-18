@@ -22,7 +22,7 @@ export function CardProjects({
         height={0}
         className="rounded-[0.625rem] w-full"
       />
-      <h4 className="text-2xl leading-normal font-semibold text-red">
+      <h4 className="text-2xl leading-normal font-semibold text-red-500">
         {title}
       </h4>
       <p className="text-base leading-[1.7rem] font-normal text-white-0">
