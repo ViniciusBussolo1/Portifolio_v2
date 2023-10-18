@@ -56,7 +56,12 @@ export function Header() {
             </li>
             <li>
               <button className="px-[0.875rem] py-2 bg-red-500 rounded-[0.188rem] text-base leading-[1.7rem] font-semibold text-white-0 hover:bg-red-600 hover:text-white-90">
-                Currículo
+                <a
+                  href="http://localhost:3000/curriculo.pdf"
+                  download={'curriculo.pdf'}
+                >
+                  Currículo
+                </a>
               </button>
             </li>
           </ul>

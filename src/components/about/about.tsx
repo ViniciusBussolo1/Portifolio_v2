@@ -8,7 +8,7 @@ export function About() {
       id="sobre"
       className="w-full h-[55rem] bg-black-80 flex justify-center items-center px-2"
     >
-      <div className="flex flex-col gap-[5.625rem]">
+      <div className="flex flex-col justify-center items-center gap-[5.625rem]">
         <TitleSection title="Sobre Mim" />
         <div className="max-w-[58.188rem] w-full flex items-center gap-[2.625rem]">
           <Image src={AboutPicture} alt="About Picture" />
