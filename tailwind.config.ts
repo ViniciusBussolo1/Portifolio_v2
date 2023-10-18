@@ -10,8 +10,9 @@ const config: Config = {
     extend: {
       colors: {
         black: {
-          '88': '#1F1F1F',
+          '75': '#4b4b4b',
           '80': '#333333',
+          '88': '#1F1F1F',
         },
         white: {
           '0': '#FFFFFF',

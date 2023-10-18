@@ -20,6 +20,7 @@ export function Projects() {
                 image={item.image}
                 description={item.description}
                 technologes={item.technologies}
+                site={item.site}
               />
             )
           })}

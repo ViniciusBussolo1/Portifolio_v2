@@ -1,10 +1,12 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface cardProjectsProps {
   image: string
   title: string
   description: string
   technologes: Array<string>
+  site: string
 }
 
 export function CardProjects({
@@ -12,9 +14,14 @@ export function CardProjects({
   title,
   description,
   technologes,
+  site,
 }: cardProjectsProps) {
   return (
-    <div className="h-[28.188rem] max-w-[27.188rem] w-full bg-black-88 flex flex-col justify-center gap-[0.938rem] p-[1.563rem] rounded-[0.625rem] shadow-card-project">
+    <Link
+      href={site}
+      target="_blanck"
+      className="h-[28.188rem] max-w-[27.188rem] w-full bg-black-88 hover:bg-black-75 flex flex-col justify-center gap-[0.938rem] p-[1.563rem] rounded-[0.625rem] shadow-card-project"
+    >
       <Image
         src={image}
         alt="Image Project"
@@ -40,6 +47,6 @@ export function CardProjects({
           )
         })}
       </div>
-    </div>
+    </Link>
   )
 }
