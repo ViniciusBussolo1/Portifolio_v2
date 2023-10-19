@@ -7,11 +7,11 @@ export function Projects() {
   return (
     <section
       id="projetos"
-      className="w-full h-[84.938rem] bg-black-80 flex justify-center items-center px-2"
+      className="w-full bg-black-80 flex justify-center items-center px-4 pt-[7.5rem]"
     >
-      <div className="h-[69.938rem] w-full flex flex-col justify-center items-center gap-[5.625rem]">
+      <div className="w-full flex flex-col justify-center items-center gap-[5.625rem] ">
         <TitleSection title="Projetos" />
-        <div className="grid grid-cols-2 gap-[3.125rem]">
+        <div className="grid grid-rows-1 min-[800px]:grid-cols-2 gap-[3.125rem] ">
           {ProjectItems.map((item, index) => {
             return (
               <CardProjects
