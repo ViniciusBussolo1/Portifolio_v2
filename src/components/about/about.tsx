@@ -42,7 +42,7 @@ export function About() {
                   Idade:
                 </span>
                 <span className="text-sm min-[515px]:text-base leading-[1.7rem] font-normal text-white-0 flex-1">
-                  22
+                  23
                 </span>
               </div>
             </div>
